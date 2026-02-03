@@ -42,7 +42,7 @@ cafe-sales-pilot/
 │ ├── app.py # ETL pipeline
 │ └── visualize.py # Data visualisations
 │
-├── outputs/ # Saved charts (PNG)
+├── Visualizations/ # Saved charts (PNG)
 ├── requirements.txt
 └── README.md
 ```
@@ -106,6 +106,7 @@ python src/visualize.py
 - The same ETL pipeline can be extended to load data into a local database such as MySQL or PostgreSQL.
 - With minimal changes, the solution can be migrated to cloud services such as AWS (S3, RDS).
 - Additional branches and larger datasets can be supported without redesigning the pipeline.
+
 
 
 
